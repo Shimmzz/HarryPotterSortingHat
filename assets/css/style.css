@@ -1,0 +1,79 @@
+@font-face {
+    font-family: HarryP;
+    src: url(../fonts/ZCOOL_XiaoWei/ZCOOLXiaoWei-Regular.ttf);
+}
+
+body{
+    background-color:#faf0ca;
+    font-family: 'HarryP';
+}
+
+h1{
+    display: block;
+    text-align: center;
+    color: black;
+    
+    font-size: 60px;
+}
+
+.button{
+    background-color:#f4d35e;
+    height: 70px;
+    width: 250px;
+    border: solid 3px #f4d35e;
+    margin: 20px;
+
+    font-family:'HarryP';
+    font-size: 40px;
+    color: black;
+
+    cursor: pointer;
+}
+
+#home, #addSort{
+    display: flex;
+    justify-content: center;   
+    
+}
+
+.centerText{
+    text-align: center; 
+}
+
+#pupilData1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#pupilData2{
+    margin-top: -25px;
+    text-align: center;
+}
+
+.anotherPupil{
+    font-size: 30px;
+}
+
+#housebuttons{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#voteResults{
+    margin-top: 50px;
+
+    font-size: 25px;
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#votesSize{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
